@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Protest+Strike&display=swap');
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    padding: 10px;
+    color: red;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+button#Si ,#Si2 {
+    color: green;
+    width: 80px;
+    height: 40px;
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: greenyellow;
+    
+    font-size: xx-large;
+    font-family: "Protest Strike", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+    
+}
+
+button#No {
+    position: relative; 
+    color: red;
+    width: 80px;
+    height: 40px;
+    border: 3px solid red;
+    border-radius: 10px;
+    background-color: orange;
+    
+    font-size: xx-large;
+    font-family: "Protest Strike", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+    
+}
+
+#Si {
+    grid-row:  5;
+    grid-column: 5;
+}
+
+#No {
+    grid-row: 5;
+    grid-column: 6;
+    
+}
+
+section {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    width: 1200px;
+    height: 600px;
+    align-items: center;
+    justify-items: center;
+}
+
+body {
+    max-width: auto;
+    max-height: auto;
+    margin: 0 auto;
+    background-image: url(/foto/1072190_Abstract-peaceful-meadow_HD_BG.jpg);
+    background-repeat: no-repeat; 
+    background-position: center; 
+     background-size: cover;
+    
+}
+
+p {
+    font-size: xx-large;
+    justify-content: center;
+    color: pink;
+}
+
+
+
+
