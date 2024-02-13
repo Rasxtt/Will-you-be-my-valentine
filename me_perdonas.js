@@ -69,6 +69,19 @@ document.addEventListener("DOMContentLoaded", function() {
                     
 
 })
+                let sib = document.getElementById("Si")
+
+                    sib.addEventListener("click", function() {
+                        document.getElementById("gif2").removeAttribute("hidden")
+                        document.getElementById("gif1").style.display = "none";
+                        document.getElementById("Si").style.display = "none";
+                        document.getElementById("No").style.display = "none";
+                        document.getElementById("h1").style.display = "none";
+                        document.getElementById("Si2").style.display = "none"
+                        botonesArray.forEach(function(botn) {
+                            botn.remove();
+                        })
+                    })
             }
         }
     })
